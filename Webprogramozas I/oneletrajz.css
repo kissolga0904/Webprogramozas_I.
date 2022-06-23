@@ -1,0 +1,50 @@
+.navbar {
+    overflow: hidden; 
+    background-color: #333; 
+}
+  
+  
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+  
+.navbar a.right {
+    float: right; 
+}
+  
+.navbar a:hover {
+    background-color: #9d7fc0; 
+    color: black; 
+}
+
+
+
+#email a {
+    float:right;
+    font-size: 30px;
+    font-family: inherit;
+    color: white;
+    margin-top: -890px;
+    margin-left: 890px;
+
+}
+
+#letoltes a {
+    float: left;
+    font-size: 30px;
+    font-family: inherit;
+    color:white;
+    margin-top: -890px;
+    margin-left: 890px;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(48, 50, 172), rgb(140, 109, 165));
+}
+
+

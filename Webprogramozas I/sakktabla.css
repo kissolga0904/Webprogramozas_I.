@@ -1,0 +1,85 @@
+.navbar {
+    overflow: hidden; 
+    background-color: #333; 
+}
+  
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+  
+ 
+.navbar a.right {
+    float: right; 
+}
+  
+.navbar a:hover {
+    background-color: #9d7fc0; 
+    color: black; 
+}
+
+.header{
+    text-align: center;
+}
+.upsidedown{
+    transform:  scale(-1,-1);
+  }
+  
+.lightfigure{
+    color: white;
+}
+  
+.darkfigure{
+    color: black;
+}
+
+body{
+    background-color: seashell;
+}
+  
+.chessboard td{
+    width: 3em;
+    height: 3em;
+    text-align: center;
+}
+   
+.chessboard .light{
+     background-color: rgb(241, 230, 209);
+}
+  
+.chessboard .dark{
+     background-color: black;
+}
+  
+.chessboard .border{
+    background-color: rgb(78, 47, 47);
+    color: white;
+}
+  
+.chessboard{
+    border-spacing: 0;
+    border: .5em solid rgb(182, 143, 111);
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.chessboard tr:nth-child(n+2):nth-child(-n+9) td:nth-child(2){
+    border-left: .5em solid rgb(182, 143, 111);
+}
+  
+.chessboard tr:nth-child(n+2):nth-child(-n+9) td:nth-child(9){
+    border-right: .5em solid rgb(182, 143, 111);
+}
+  
+.chessboard tr:nth-child(2) td:nth-child(n+2):nth-child(-n+9){
+    border-top: .5em solid rgb(182, 143, 111);
+}
+  
+.chessboard tr:nth-child(9) td:nth-child(n+2):nth-child(-n+9){
+    border-bottom: .5em solid rgb(182, 143, 111);
+}
+  

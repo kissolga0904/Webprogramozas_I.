@@ -1,0 +1,74 @@
+.header {
+    padding: 30px; 
+    text-align: center; 
+    background-image: linear-gradient(to right, rgb(57, 15, 105), #9d7fc0 ); 
+    color: white; 
+  }
+  
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p{
+      font-size: 18px ;
+      font-family:inherit;
+  }
+  .header p1{
+      font-size: 18px;
+      font-family: inherit;
+  }
+  
+.navbar {
+    overflow: hidden; 
+    background-color: #333; 
+  }
+  
+  
+  .navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+  }
+  
+ 
+  .navbar a.right {
+    float: right; 
+  }
+  
+  
+  .navbar a:hover {
+    background-color: #9d7fc0; 
+    color: black; 
+  }
+
+  .bemutatkozas h1{
+    font-family: inherit;
+    font-size: 30px;
+    color: black;
+    margin-left: 400px;
+    margin-top: -450px;
+    
+  }
+
+  .bemutatkozas p{
+    color: black;
+    font-size: 20px;
+    font-family: inherit;
+  }
+  
+ img{
+    float: left;
+  }
+  .kepgaleria{
+     float: right;
+     margin-top: -170px;
+     text-align: center;
+     outline: black;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 5px;
+     box-shadow: 0 0 2px 1px rgba(180, 0, 186, 0.5);
+  }
